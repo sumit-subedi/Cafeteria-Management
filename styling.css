@@ -1,0 +1,130 @@
+#{
+	padding:0px;
+	margin:0;
+}
+#head{
+  font-size:40px;
+  color:white;
+  float:left;
+  animation: anime 5s infinite;
+
+  margin-left: 20px;
+  padding: 5px;
+  width: 30%;
+  margin-top: 25px;
+}
+@keyframes anime {
+  0% {color: lightgreen;}
+  30% {color: lightblue;}
+  70% {color: pink;}
+  85% {color:brown;}
+}
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+}
+#button{
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px white solid;
+  -webkit-transition:background-color 4s ,color 2s;
+}
+#button:hover{
+  background-color: #3F3F3F;
+  color:#ffff00;
+}
+.adminmenu{
+  width: 12%;
+  font-size: 35px;
+  height: 9%;
+  text-align: center;
+  color: white;
+  background-color: green;
+  margin-left: 100px;
+  float: left;
+  -webkit-transition:background-color 1s ,color 1s;
+}
+.adminmenu:hover{
+  background-color: blue;
+  color:red;
+	width: 11.5%;
+	height:8%;
+	margin-left: 102px;
+}
+#desc{
+  margin-top: 0px;
+   color:white;
+   margin-bottom: 0px;
+   font-size:30px;
+}
+#tble:hover{
+  background-color: gray;
+}
+#tble:active{
+  color:black;
+}
+#edit_body{
+	width:500px;
+	height:400px;
+	margin-left: 300px;
+	margin-top: 125px;
+	background-color:lightgray;
+}
+#del{
+	width:50px;
+	height: 25px;
+	color: darkgray;
+	background-color: brown;
+	font-size: 15px;
+}
+#tablehe{
+	font-size: 20px;
+	color: green;
+	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-right: 10px;
+	border-right: 2px solid blue;
+}
+#tabledata{
+	border-right: 2px solid blue;
+	font-size: 25px;
+}
+#butto{
+	width:150px;
+	height:50px;
+	font-size:20px;
+	margin-top:80px;
+	margin-left:150px;
+}
+#butto:hover{
+	background-color: gray;
+}
+#text{
+	color:red;
+}
+input{
+	display: block;
+}
+#right{
+	float: left;
+	width: 300px;
+	height: 40px;
+
+	font-size: 25px;
+}
+#left{
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+	font-size: 25px;
+}
+.tablehead{
+	font-size: 25px;
+	border: 1.5px solid blue;
+}
+#tabledatas{
+	border: 2px solid blue;
+	font-size: 25px;
+	background-color: silver;
+	height: 40px;
+}

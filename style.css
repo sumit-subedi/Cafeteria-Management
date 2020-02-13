@@ -1,0 +1,191 @@
+#{
+	padding:0px;
+	margin:0;
+}
+#bd{
+	width: 99%;
+	height: 128%;
+	min-height: 700px;
+
+	position: relative;
+	background-color: lightgreen;
+	border:2px solid black;
+}
+#header{
+
+	padding-bottom: 20px;
+	 width: 98%;
+	 margin-top: 5px;
+	 margin-left: 1%;
+	 height: 50px;
+
+
+}
+#title{
+	color: brown;
+	float: left;
+	border: 1px solid orange;
+	font-size: 35px;
+	font-weight: bold;
+	width: 260px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-bottom: 6px;
+}
+#title:hover{
+	background-color: lightgray;
+	color: brown;
+  border: 2px solid black;
+}
+#body{
+	width: 98%;
+	height: 90%;
+	background-color: ;
+	transition: background 1s linear;
+	transition-delay: 3s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-left: 1%;
+
+
+}
+#close{
+	float:right;style="float:right;border:none;font-size:30px;color: white;margin-right:15px;margin-top:10px;background-color:rgba(0,0,0,0.5);"
+	border:none;
+	font-size:30px;
+	color: white;
+	margin-right:15px;
+	margin-top:10px;
+	background-color:rgba(0,0,0,0.5);
+}
+#jdiv{
+	width: 70%;
+	height: 85%;
+	margin-left: 200px;
+	margin-top: 20px;
+	background-color: rgba(0.01, 0, 0, 0.5);
+	display:none;
+	position: absolute;
+	z-index: 10;
+}
+#arko{
+	width: 70%;
+	height: 80%;
+	margin-left: 200px;
+	margin-top: 20px;
+	background-color: rgba(0.01, 0, 0, 0.5);
+	display:none;
+	position: absolute;
+	z-index: 10;
+}
+input{
+	width: 60%;
+	height: 10%;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.button{
+	float:right;
+	margin-right: 25px;
+	width:125px;    text-align: center;
+	margin-top: 20px;
+	border: none;
+	font-size: 25px;
+	position: relative;
+	overflow: hidden;
+	height:45px;
+
+	color:silver;
+	background-color:brown;
+}
+#form{
+	color:black;
+	width: 50%;
+	font-size:200%;
+	height: 10%;
+	margin-left:20px;
+	background-color: lightgray;
+	margin-top:30px;
+}
+#input{
+	font-size:20px;
+	color:darkgray;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+.button:hover{
+	background-color: silver;
+	color: brown;
+}
+div.menu{
+	height:80px;
+	font-size:50px;
+	padding: 10px;
+	float: left;
+	padding-left: 15px;
+	margin-top: 180px;
+	margin-left: 70px;
+	margin-right: 0px;
+	width: 150px;
+	color:orange;
+	background-color: rgba(0,0,0,.5);
+	opacity: 1;
+	-webkit-transition :width 1s , height 1s , background 1s , text-align 1s;
+}
+div.menu:hover {
+	var element
+	width : 15%;
+	background-color: silver;
+	text-align: center;
+	height: 90px;
+}
+#footer{
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 35%;
+	position :absolute;
+	background-color: gray;
+	height: 150px;
+}
+.foot{
+	font-size: 30px;
+	margin-left: 15px;
+	width: 300px;
+
+}
+.foot:hover{
+	color: white;
+
+}
+
+#tableh{
+	font-size: 25px;
+	color: red;
+	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 80px;
+}
+#tabledata{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	color: white;
+}
+
+@keyframes mymove {
+	0% {background-image: url(frenchfries.jpg);transition-timing-function: ease-in; }
+	40% {background-image: url(nuggets.jpg);transition-timing-function: ease;}
+	60% {background-image: url(pizza.jpg);}
+	80% {background-image: url(chow.jpg);background-size: cover}
+	90% {background-image: url(momo.jpg);}
+
+}
+@keyframes pop{
+	0% {width:10%;height:10%;}
+	100%{width:70%;height:80%;}
+}
